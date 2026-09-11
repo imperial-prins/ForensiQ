@@ -1,0 +1,21 @@
+From: "Microsoft 365 Voicemail" <voicemail@microsoft365-alerts.top>
+To: analyst@company.example
+Subject: New secure voicemail notification
+Date: Fri, 11 Sep 2026 18:08:00 +0000
+Message-ID: <forensiq-demo-voicemail-campaign@microsoft365-alerts.top>
+Reply-To: account-recovery@account-recovery.top
+Return-Path: <bounce@secure-microsoft365.top>
+Authentication-Results: mx.company.example; spf=fail; dkim=fail; dmarc=fail
+Received-SPF: fail (mx.company.example: domain of bounce@secure-microsoft365.top does not designate 185.220.101.5 as permitted sender)
+Received: from edge-relay.account-recovery.top (edge-relay.account-recovery.top [185.220.101.5])
+	by mx.company.example (Postfix) with ESMTPS id DEMO-18006
+	for <analyst@company.example>; Fri, 11 Sep 2026 18:08:03 +0000
+Content-Type: text/plain; charset="UTF-8"
+
+Microsoft 365 Voicemail
+
+A secure voicemail is waiting. Verify immediately to listen. Your account may be suspended within 24 hours if verification is not completed.
+
+Listen securely: http://microsoft-login-verify.top/voicemail
+
+This is a synthetic ForensiQ demonstration message. The link is inert and must not be opened.

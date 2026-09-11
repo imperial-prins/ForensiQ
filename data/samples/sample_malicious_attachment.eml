@@ -1,0 +1,20 @@
+From: shipping@delivery-notice.top
+To: analyst@company.example
+Subject: Delivery invoice attached
+Date: Fri, 11 Sep 2026 16:00:00 +0000
+Message-ID: <malicious-attachment@delivery-notice.top>
+Authentication-Results: mx.company.example; spf=fail; dkim=fail; dmarc=fail
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="sample-boundary"
+
+--sample-boundary
+Content-Type: text/plain; charset="UTF-8"
+
+Open the attached invoice immediately to release your package.
+--sample-boundary
+Content-Type: application/octet-stream
+Content-Disposition: attachment; filename="invoice.exe"
+Content-Transfer-Encoding: base64
+
+TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+--sample-boundary--

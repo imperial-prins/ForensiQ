@@ -1,0 +1,10 @@
+From: payroll@company.example
+To: analyst@company.example
+Subject: Monthly payroll summary
+Date: Fri, 11 Sep 2026 09:00:00 +0000
+Message-ID: <payroll-20260911@company.example>
+Authentication-Results: mx.company.example; spf=pass; dkim=pass; dmarc=pass
+Received: from payroll.company.example by mx.company.example with ESMTPS id clean01 for <analyst@company.example>; Fri, 11 Sep 2026 09:00:02 +0000
+Content-Type: text/plain; charset="UTF-8"
+
+Your monthly payroll summary is available in the employee portal.

@@ -1,0 +1,10 @@
+From: support@company.example
+To: analyst@company.example
+Subject: Review document
+Date: Fri, 11 Sep 2026 13:00:00 +0000
+Message-ID: <suspicious-url@company.example>
+Authentication-Results: mx.company.example; spf=pass; dkim=pass; dmarc=pass
+Received: from support.company.example by mx.company.example; Fri, 11 Sep 2026 13:00:02 +0000
+Content-Type: text/html; charset="UTF-8"
+
+<html><body><a href="http://198.51.100.23/login">Review document</a></body></html>

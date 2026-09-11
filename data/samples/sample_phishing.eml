@@ -1,0 +1,35 @@
+From: "IT Support Desk" <support@secure-update-portal.xyz>
+To: target-employee@company.com
+Subject: URGENT: Mandatory Email Portal Verification Required Within 24 Hours
+Date: Fri, 11 Sep 2026 14:22:10 +0000
+Message-ID: <20260911142210.83729@secure-update-portal.xyz>
+Reply-To: phisher-collect@harvest-credentials.top
+Return-Path: <bounce@secure-update-portal.xyz>
+Authentication-Results: mx.google.com;
+       spf=fail (google.com: domain of bounce@secure-update-portal.xyz does not designate 185.220.101.5 as permitted sender) smtp.mailfrom=bounce@secure-update-portal.xyz;
+       dkim=fail header.i=@secure-update-portal.xyz;
+       dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=secure-update-portal.xyz
+Received-SPF: fail (google.com: domain of bounce@secure-update-portal.xyz does not designate 185.220.101.5 as permitted sender)
+Received: from mail-relay.rogue-server.com (mail-relay.rogue-server.com [185.220.101.5])
+	by mx.company.com (Postfix) with ESMTPS id 4Vxyz89101
+	for <target-employee@company.com>; Fri, 11 Sep 2026 14:22:11 +0000
+Received: from workstation-node.internal (192.168.1.50)
+	by mail-relay.rogue-server.com (Postfix) with ESMTP id 3Abc123;
+	Fri, 11 Sep 2026 14:22:05 +0000
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html>
+<html>
+<body>
+<div style="font-family: Arial, sans-serif;">
+  <h2 style="color: #d9534f;">Critical IT Security Warning</h2>
+  <p>Dear Valued Employee,</p>
+  <p>Our automated monitoring system detected suspicious unauthorized login attempts from IP <b>185.220.101.5</b> (Frankfurt, DE) targeting your corporate account.</p>
+  <p><b>Failure to re-verify your identity within 24 hours will result in immediate account suspension.</b></p>
+  <p><a href="http://185.220.101.5/login-verify.php" style="background: #d9534f; color: white; padding: 10px 15px; text-decoration: none; border-radius: 4px;">Click Here to Verify Account Instantly</a></p>
+  <p>Or visit directly: <a href="http://login-verify-portal.top/auth">http://login-verify-portal.top/auth</a></p>
+  <br>
+  <p>Regards,<br>IT Helpdesk Security Team</p>
+</div>
+</body>
+</html>

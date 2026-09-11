@@ -1,0 +1,10 @@
+From: notice@delivery.example
+To: analyst@company.example
+Subject: Delivery update
+Date: Fri, 11 Sep 2026 14:00:00 +0000
+Message-ID: <suspicious-infra@delivery.example>
+Authentication-Results: mx.company.example; spf=pass; dkim=pass; dmarc=pass
+Received: from relay [185.220.101.5] by mx.company.example; Fri, 11 Sep 2026 14:00:02 +0000
+Content-Type: text/plain; charset="UTF-8"
+
+Synthetic suspicious infrastructure scenario.

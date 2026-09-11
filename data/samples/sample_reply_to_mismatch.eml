@@ -1,0 +1,11 @@
+From: service@company.example
+To: analyst@company.example
+Reply-To: collect@external-mail.top
+Subject: Service notification
+Date: Fri, 11 Sep 2026 12:00:00 +0000
+Message-ID: <reply-mismatch@company.example>
+Authentication-Results: mx.company.example; spf=pass; dkim=pass; dmarc=pass
+Received: from service.company.example by mx.company.example; Fri, 11 Sep 2026 12:00:02 +0000
+Content-Type: text/plain; charset="UTF-8"
+
+Synthetic Reply-To mismatch scenario.

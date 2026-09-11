@@ -1,0 +1,17 @@
+From: "IT Support Desk" <support@secure-update-portal.xyz>
+To: target-employee@company.com
+Subject: URGENT: Mandatory Email Portal Verification Required Within 24 Hours
+Date: Fri, 11 Sep 2026 14:22:10 +0000
+Message-ID: <20260911142210.83729@secure-update-portal.xyz>
+Reply-To: phisher-collect@harvest-credentials.top
+Return-Path: <bounce@secure-update-portal.xyz>
+Authentication-Results: mx.google.com; spf=fail; dkim=fail; dmarc=fail
+Received: from mail-relay.rogue-server.com (mail-relay.rogue-server.com [185.220.101.5]) by mx.company.com (Postfix) with ESMTPS id 4Vxyz89101 for <target-employee@company.com>; Fri, 11 Sep 2026 14:22:11 +0000
+Received: from workstation-node.internal (192.168.1.50) by mail-relay.rogue-server.com (Postfix) with ESMTP id 3Abc123; Fri, 11 Sep 2026 14:22:05 +0000
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html>
+<html><body>
+<p>Critical IT Security Warning: Please re-verify your corporate account within 24 hours at http://185.220.101.5/login-verify.php</p>
+<p><a href="http://login-verify-portal.top/auth">Verify account</a></p>
+</body></html>

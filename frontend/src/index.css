@@ -1,0 +1,10 @@
+@import './App.css';
+@import './theme.css';
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+html { background: var(--background); }
+body { min-width: 320px; }

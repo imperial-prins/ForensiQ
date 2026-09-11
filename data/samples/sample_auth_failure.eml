@@ -1,0 +1,10 @@
+From: alerts@billing.example
+To: analyst@company.example
+Subject: Billing notice
+Date: Fri, 11 Sep 2026 11:00:00 +0000
+Message-ID: <auth-failure@billing.example>
+Authentication-Results: mx.company.example; spf=fail; dkim=fail; dmarc=fail
+Received: from relay.billing.example by mx.company.example; Fri, 11 Sep 2026 11:00:02 +0000
+Content-Type: text/plain; charset="UTF-8"
+
+This is a synthetic authentication failure test message.

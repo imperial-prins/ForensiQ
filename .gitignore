@@ -1,0 +1,28 @@
+# Python / venv
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+
+# Data & SQLite
+data/*.db
+data/*.sqlite3
+evidence/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,10 @@
+From: notice@account-review.xyz
+To: analyst@company.example
+Subject: Urgent account verification required
+Date: Fri, 11 Sep 2026 10:00:00 +0000
+Message-ID: <phish-basic@account-review.xyz>
+Authentication-Results: mx.company.example; spf=pass; dkim=pass; dmarc=pass
+Received: from sender.account-review.xyz by mx.company.example; Fri, 11 Sep 2026 10:00:02 +0000
+Content-Type: text/plain; charset="UTF-8"
+
+Urgent: verify immediately to prevent account suspended status.

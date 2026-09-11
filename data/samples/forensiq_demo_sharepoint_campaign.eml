@@ -1,0 +1,15 @@
+From: "Microsoft SharePoint" <sharepoint@microsoft365-alerts.top>
+To: analyst@company.example
+Subject: A SharePoint document was shared with you
+Date: Fri, 11 Sep 2026 18:04:00 +0000
+Message-ID: <forensiq-demo-sharepoint-campaign@microsoft365-alerts.top>
+Reply-To: account-recovery@account-recovery.top
+Return-Path: <bounce@secure-microsoft365.top>
+Authentication-Results: mx.company.example; spf=fail; dkim=fail; dmarc=fail
+Received-SPF: fail (mx.company.example: domain of bounce@secure-microsoft365.top does not designate 185.220.101.5 as permitted sender)
+Received: from edge-relay.account-recovery.top (edge-relay.account-recovery.top [185.220.101.5])
+	by mx.company.example (Postfix) with ESMTPS id DEMO-18004
+	for <analyst@company.example>; Fri, 11 Sep 2026 18:04:03 +0000
+Content-Type: text/html; charset="UTF-8"
+
+<html><body><p>Microsoft SharePoint shared a protected document with you.</p><p>Security verification is required within 24 hours.</p><p><a href="http://microsoft-login-verify.top/share">Review shared document</a></p><p>This is a synthetic ForensiQ demonstration message. The link is inert and must not be opened.</p></body></html>
